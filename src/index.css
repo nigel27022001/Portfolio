@@ -87,7 +87,7 @@ button:focus-visible {
 
 @media (min-width: 768px) {
   .section-bg-md {
-    background-image: url('./src/assets/Backdrop.png');
+    background-image: url('/Backdrop.png');
     background-size: cover;
     background-position: center;
   }

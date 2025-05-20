@@ -1,6 +1,5 @@
 import Section from './components/Section'
 import { Typewriter } from 'react-simple-typewriter'
-import mainPic from './assets/main.jpg'
 import { snorlaxAnimation } from './animation/Snorlax'
 import { pelipperAnimation } from './animation/Pelipper'
 import Sprite from './components/Sprite'
@@ -8,8 +7,8 @@ import './App.css'
 
 function Landing() {
     return (
-    <Section id="home" additionalCustomBackdrop='./src/assets/Backdrop.png'>
-        <img src={mainPic} alt="mainpicture" className="w-90 h-90 object-cover rounded-full border-4 border-secondary dark:border-pink-200"/>
+    <Section id="home" additionalCustomBackdrop='/Backdrop.png'>
+        <img src="/main.JPG" alt="mainpicture" className="w-90 h-90 object-cover rounded-full border-4 border-secondary dark:border-pink-200"/>
         <h1 className="text-4xl font-bold text-primary dark:text-pink-300">
             Nigel Lim
         </h1>

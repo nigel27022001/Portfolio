@@ -5,9 +5,9 @@ import { motion, AnimatePresence } from "framer-motion"
 import FadeInWhenVisible from './components/FadeAnimation'
 
 const images = [
-    "./src/assets/aboutMe.JPG",
-    "./src/assets/AboutUdon.jpg",
-    "./src/assets/aboutMe2.JPG",
+    "/AboutMe.jpg",
+    "/AboutUdon.jpg",
+    "/AboutMe2.jpg"
 ]
 
 function About() {
