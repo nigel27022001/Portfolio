@@ -3,7 +3,7 @@ import FadeInWhenVisible from "./components/FadeAnimation";
 
 function Contacts() {
     return (
-        <Section id="contact" title="Contact">
+        <Section id="contact">
             <FadeInWhenVisible>
                 <div className="p-10 flex flex-col gap-4">
                     <h3 className="text-3xl text-primary font-bold text-center dark:text-dark-primary">

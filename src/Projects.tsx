@@ -4,7 +4,7 @@ import ProjectCard from './components/ProjectCard';
 
 function Projects() {
     return (
-        <Section id="projects" title="Projects">
+        <Section id="projects">
             <FadeInWhenVisible>
                 <div className="p-10 flex flex-col gap-4">
                     <h3 className="text-3xl text-primary font-bold dark:text-dark-primary">

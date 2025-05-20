@@ -25,7 +25,7 @@ export async function pelipperAnimation() {
     anim.width = 150;
     anim.height = 100;
     app.stage.addChild(anim);
-    const callback = (ticker: Ticker) => {
+    const callback = () => {
         anim.x -= 1;
         if (anim.x + anim.width / 2 < 0) {
             anim.x = app.screen.width + anim.width / 2;

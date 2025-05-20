@@ -3,7 +3,7 @@ import FadeInWhenVisible from "./components/FadeAnimation";
 
 function Experiences() {
     return (
-        <Section id="experiences" title="Experiences">
+        <Section id="experiences">
             <FadeInWhenVisible>
                 <div className="p-10 flex flex-col gap-0">
                     <h3 className="text-1xl text-secondary dark:text-dark-secondary">

@@ -4,7 +4,7 @@ import SkillCard from './components/SkillCard';
 
 function Skills() {
     return (
-        <Section id="skills" title="Skills"  >
+        <Section id="skills">
             <div className="flex flex-col gap-4 items-left justify-center p-10">
                 <FadeInWhenVisible>
                     <h3 className="text-1xl text-secondary dark:text-dark-secondary">

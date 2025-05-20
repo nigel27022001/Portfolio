@@ -5,7 +5,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false);
     const [dark, setDark] = useState(false);
 
-    const scrollTo = (id) => {
+    const scrollTo = (id: string) => {
         document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
         setOpen(false); // close menu on link click
     };

@@ -10,11 +10,7 @@ import './App.css'
 function App() {
   return (
     <div >
-      <Navbar >
-        <p className="text-2xl text-black font-title">
-          Nigel Lim
-        </p>
-      </Navbar>
+      <Navbar />
       <Landing />
       <About />
       <Skills />

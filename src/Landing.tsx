@@ -1,6 +1,6 @@
 import Section from './components/Section'
 import { Typewriter } from 'react-simple-typewriter'
-import mainPic from './assets/main.JPG'
+import mainPic from './assets/main.jpg'
 import { snorlaxAnimation } from './animation/Snorlax'
 import { pelipperAnimation } from './animation/Pelipper'
 import Sprite from './components/Sprite'
