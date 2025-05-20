@@ -11,11 +11,11 @@ export async function snorlaxAnimation() {
 
     for (let i = 0; i < normalLoop; i++) {
         for (let j = 0; j < normalFrames; j++) {
-            imagePaths.push(`/Snorlax/Snorlax-${j}.png`);
+            imagePaths.push(`Snorlax/Snorlax-${j}.png`);
         }
     }
     for (let j = normalFrames; j < totalFrames; j++) {
-        imagePaths.push(`/Snorlax/Snorlax-${j}.png`);
+        imagePaths.push(`Snorlax/Snorlax-${j}.png`);
     }
 
     // Preload all images from /public folder

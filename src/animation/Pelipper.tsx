@@ -9,7 +9,7 @@ export async function pelipperAnimation() {
     const imagePaths: string[] = [];
 
     for (let j = 0; j < totalFrames; j++) {
-        imagePaths.push(`/Pelipper/Pelipper-${j}.png`);
+        imagePaths.push(`Pelipper/Pelipper-${j}.png`);
     }
     // Preload all images from /public folder
     await PIXI.Assets.load(imagePaths);

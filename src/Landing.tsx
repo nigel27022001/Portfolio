@@ -8,7 +8,7 @@ import './App.css'
 function Landing() {
     return (
     <Section id="home" additionalCustomBackdrop='/Backdrop.png'>
-        <img src="/main.JPG" alt="mainpicture" className="w-90 h-90 object-cover rounded-full border-4 border-secondary dark:border-pink-200"/>
+        <img src="main.JPG" alt="mainpicture" className="w-90 h-90 object-cover rounded-full border-4 border-secondary dark:border-pink-200"/>
         <h1 className="text-4xl font-bold text-primary dark:text-pink-300">
             Nigel Lim
         </h1>
