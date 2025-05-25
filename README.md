@@ -1,54 +1,49 @@
-# React + TypeScript + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **personal portfolio website** built to showcase my skills, projects, and experience as a software developer. The site is designed to be visually appealing, responsive, and easy to maintain.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**  
+  The core UI library for building interactive user interfaces.
 
-## Expanding the ESLint configuration
+- **TypeScript**  
+  Provides static typing for safer and more maintainable code.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Tailwind CSS**  
+  Utility-first CSS framework for rapid and consistent styling.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Framer Motion**  
+  Animation library for React, used for smooth transitions and interactive effects.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **PixiJS**  
+  2D rendering engine for advanced canvas-based animations (used for animated sprites).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🖼️ Features
+
+- **Responsive Design:**  
+  Looks great on desktop and mobile devices.
+
+- **Dark Mode:**  
+  Toggle between light and dark themes using Tailwind’s dark mode support.
+
+- **Animated Sprites:**  
+  Uses PixiJS to display animated Pokémon sprites for a playful touch.
+
+- **Typewriter Effect:**  
+  Dynamic typewriter animation to highlight interests and skills.
+
+- **Project Showcase:**  
+  Cards displaying project details, technologies, and links.
+
+- **Contact & Social Links:**  
+  Easy access to GitHub, LinkedIn, and other profiles.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Feel free to explore, fork, and use this portfolio as inspiration for your own!
