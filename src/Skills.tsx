@@ -1,6 +1,7 @@
 import Section from './components/Section'
 import FadeInWhenVisible from './components/FadeAnimation';
 import SkillCard from './components/SkillCard';
+import { img } from 'framer-motion/client';
 
 function Skills() {
     return (
@@ -37,6 +38,8 @@ function Skills() {
                         <SkillCard title="Python" description='High-level, versatile language' image={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />}></SkillCard>
                         <SkillCard title="C#" description='Object Oriented, for Game development' image={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />}></SkillCard>
                         <SkillCard title="C" description='Low-level, Powerful Systems Language' image={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />}></SkillCard>
+                        <SkillCard title="C++" description='Low-level, High-performance Language' image={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"/>}/>
+                        <SkillCard title="Golang" description='Fast, Simple and Concurrent-Focused Language' image={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg"/>}></SkillCard>
                         <SkillCard title="Java" description='Object Oriented Programming Language' image={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />}></SkillCard>
                         <SkillCard title="JavaScript" description='Dynamic Language for Web Interactivity' image={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />}></SkillCard>
                         <SkillCard title="TypeScript" description='Strongly-typed Javascript' image={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />}></SkillCard>
@@ -78,6 +81,7 @@ function Skills() {
                             <SkillCard title="MySQL" description="Relational Database System" image={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />}></SkillCard>
                             <SkillCard title="PostgreSQL" description="Relational Database System" image={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" />}></SkillCard>
                             <SkillCard title="MongoDB" description="NoSQL Document-based Database System" image={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" />}></SkillCard>
+                            <SkillCard title="Redis" description="In-memory Data Structure Store" image={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-plain-wordmark.svg" />}></SkillCard>
                             <SkillCard title="Neo4j" description="Graph Database System" image={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neo4j/neo4j-original-wordmark.svg" />}></SkillCard>
                         </div>
                 </FadeInWhenVisible>
